@@ -22,6 +22,7 @@ System.out.println("Vida Guerrero [" + vidaGuerrero + "] / Vida Vampiro [" + vid
 String elGanador = vidaGuerrero > 0 ? "Guerrero" : "Vampiro";
 System.out.println("Ganó el " + elGanador);
 ```
+---
 
 ## Pregunta 2
 
@@ -37,6 +38,7 @@ Para empezar, el primer error que veo es que día no lleva tilde en la parte que
 ```java
 System.out.println("Dia " + dia + " - " + hora + ":00. Consumo hora: " + consumoHora);
 ```
+---
 
 ## Pregunta 3
 
@@ -57,6 +59,7 @@ for (int piso = PISOS - 1; piso >= 0; piso--) {
 }
 ```
 
+---
 
 ## Pregunta 4
 
@@ -71,6 +74,7 @@ La variable consumoTotalSemana está declarada como un int o entero, lo que llev
 ### Solución propuesta
 Declarar consumoTotalSemana como un double.
 
+---
 
 ## Pregunta 5
 
